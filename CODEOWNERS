@@ -1,0 +1,4 @@
+packages/api           @Stealthmate
+packages/web           @tamofplease
+packages/infra         @Stealthmate @tamofplease
+packages/kubernetes    @Stealthmate @tamofplease
