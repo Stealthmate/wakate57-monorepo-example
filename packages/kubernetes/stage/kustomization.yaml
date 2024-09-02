@@ -1,0 +1,8 @@
+images:
+  - name: example
+    newName: wakate57/example
+    newTag: v1.0.2-rc+12345
+
+resources:
+  - deployment.yaml
+  - service.yaml

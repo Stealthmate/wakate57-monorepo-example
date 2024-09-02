@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wakate-monorepo-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: wakate-monorepo-app
+  template:
+    metadata:
+      labels:
+        app: wakate-monorepo-app
+    spec:
+      containers:
+      - name: nginx
+        image: example
+        ports:
+        - containerPort: 80
